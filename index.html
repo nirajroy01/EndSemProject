@@ -4,11 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style type="text/css">
+         header{
+            margin-top: 10px;
+        }
+        
+
+        @media screen and (orientation:landscape) {
+           
+        }
+
+        @media screen and (orientation:potrait) {
+            
+           
+        }
+    </style>
+    
 </head>
-<body>
-    <p>Niraj Roy</p>
-    <p>FGJFGKHSFAI</p>
-    <p>gjdfgjajh</p>
-    <p>gfhgnk</p>
+<body class="container-fluid">
+    
+    <header class="d-flex justify-content-around">
+        <div class="d-flex">
+            <div>
+                <img src="public/images/image.png" alt="" height="30" width="150">
+            </div>
+            <div style=" border-radius: 12px; font-size: 17px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" class="p-1 ps-4 pe-4 bg-primary-subtle text-primary ms-3">
+                <span>Category</span>
+            </div>
+        </div>
+
+        <div class="">
+            <span style="font-size: 17px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;" class="ms-3 text-primary">Demos</span>
+            <span style="font-size: 17px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;" class="ms-3 text-secondary">Pages</span>
+            <span style="font-size: 17px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;" class="ms-3 text-secondary">Accounts</span>
+            <span style="font-size: 17px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;" class="ms-3 text-secondary">Megamenu</span>
+            <span class="bi bi-three-dots ms-3 fw-bold"></span>
+        </div>
+
+        <div>
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                <div>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+                  
+                 <div>
+                    <img src="public/images/01.jpg" alt="" height="30" width="30" class="rounded-circle ms-2">
+                 </div>
+                    
+                </form>
+              </div>
+        </div>
+    </header>
+   
+
+
+    <main class="d-flex justify-content-around mt-5">
+        <div class="mt-5">
+            <h1 style="font-size: 60px;" class="fw-bold">Limitless learning at <br> your fingertips</h1>
+            <p class="fs-5 text-secondary mt-5">Online learning and teaching marketplace with 5K+ courses & <br> 
+                10M students. Taught by experts to help you acquire new skills.</p>
+
+                <div>
+                    <span class="bi bi-check-circle-fill  ms-2" style="font-size: 15px;"> Learn with experts</span>
+                    <span class="bi bi-check-circle-fill  ms-2" style="font-size: 15px;"> Get certificate</span>
+                    <span class="bi bi-check-circle-fill  ms-2" style="font-size: 15px;"> Get membership</span>
+                </div>
+
+                <div class="mt-4 d-flex">
+                    <div>
+                        <a href="">
+                            <button type="button" class="btn btn-danger btn-lg" style="background-color: rgb(240, 81, 81);">Get Started</button>
+                        </a>
+                    </div>
+
+                   <div>
+                    <a href="" class="ms-5" style="text-decoration: none;">
+                        <span class="bi bi-play-circle-fill fs-3"> Watch video</span>
+                    </a>
+                   </div>
+                </div>
+        </div>
+
+        <div>
+            <img src="public/images/02.png" alt="">
+        </div>
+    </main>
+   
+    <div class="d-flex justify-content-around mt-5">
+        <div style="background-color: rgb(220, 186, 186); height: 100px; width: 200px; text-align: center; border-radius: 10px;" >
+            <span class="bi bi-pc-display-horizontal" style="font-size: 50px; color: yellow;"></span>
+            <span><span style="font-size: 30px; font-weight: bold;"> 10 K</span> <br> online courses</span>
+        </div>
+        <div style="background-color: rgb(152, 159, 203); height: 100px; width: 200px; text-align: center; border-radius: 10px;" >
+            <span class="bi bi-person-fill" style="font-size: 50px; color: rgb(26, 26, 19);"></span>
+            <span><span style="font-size: 30px; font-weight: bold;"> 10 K</span> <br> online courses</span>
+        </div>
+        <div style="background-color: rgb(184, 159, 199); height: 100px; width: 200px; text-align: center; border-radius: 10px;" >
+            <span class="bi bi-person-fill" style="font-size: 50px; color: rgb(85, 62, 187);"></span>
+            <span><span style="font-size: 30px; font-weight: bold;"> 10 K</span> <br> online courses</span>
+        </div>
+        <div style="background-color: rgb(159, 184, 205); height: 100px; width: 200px; text-align: center; border-radius: 10px;" >
+            <span class="bi bi-check-square-fill" style="font-size: 50px; color: rgb(78, 210, 222);"></span>
+            <span><span style="font-size: 30px; font-weight: bold;"> 10 K</span> <br> online courses</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
